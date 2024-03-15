@@ -1,5 +1,5 @@
 REM Title: MacOSX Reverse Shell (v1.0)
-REM Author: fatherthomas
+REM Author: skyejacobson
 REM Description: Allows you to traverse through any MacOS system and use bash commands to do what you please
 REM Target: MacOS Monterey (or older versions)
 REM Version: 1.0
